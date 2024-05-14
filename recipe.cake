@@ -12,6 +12,8 @@ IntelliJBuildParameters.SetParameters(
   repositoryName: "unknown",
   repositoryOwner: "nils-a",
   marketplaceId: "12345-some-plugin",
+  shouldRunPluginVerifier: false,
+  intelliJAnalyzerTasks: new[]{ "check", "verifyPlugin" },
   preferredBuildProviderType: BuildProviderType.GitHubActions,
   preferredBuildAgentOperatingSystem: PlatformFamily.Windows
 );
